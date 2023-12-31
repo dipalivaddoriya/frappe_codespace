@@ -1,0 +1,21 @@
+{
+ "background_workers": 1,
+ "db_host": "mariadb",
+ "default_site": "dipali.local",
+ "file_watcher_port": 6787,
+ "frappe_user": "frappe",
+ "gunicorn_workers": 5,
+ "live_reload": true,
+ "rebase_on_pull": false,
+ "redis_cache": "redis://redis-cache:6379",
+ "redis_queue": "redis://redis-queue:6379",
+ "redis_socketio": "redis://redis-socketio:6379",
+ "restart_supervisor_on_update": false,
+ "restart_systemd_on_update": false,
+ "serve_default_site": true,
+ "server_script_enabled": 1,
+ "shallow_clone": true,
+ "socketio_port": 9000,
+ "use_redis_auth": false,
+ "webserver_port": 8000
+}

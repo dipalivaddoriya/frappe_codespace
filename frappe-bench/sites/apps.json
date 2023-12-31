@@ -1,0 +1,31 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "helpdesk": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "d0ba8b43a3fd06ae6d22dc942bde3cded48daaa7",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.10.0"
+    },
+    "airplane_mode": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "3fcf25c66e22c7430c5d14d2082cb0afce0d8769",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    }
+}
